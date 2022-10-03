@@ -38,7 +38,6 @@ public class SaveToCSV : MonoBehaviour
             strWriter.WriteLine(string.Join(", ", row));
         }
 
-        print("done");
 
     }
 }
