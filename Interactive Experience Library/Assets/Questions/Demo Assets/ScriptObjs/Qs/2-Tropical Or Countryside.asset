@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0c0687f9e4df17498fd822b679c0358, type: 3}
+  m_Name: 2-Tropical Or Countryside
+  m_EditorClassIdentifier: 
+  questionText: Tropical fruit or countryside fruit?
+  answers:
+  - {fileID: 11400000, guid: f48148a90cc069a438edcbbfab42dcb1, type: 2}
+  - {fileID: 11400000, guid: 6f2e8f6ab2418dc4a83a83775e215491, type: 2}

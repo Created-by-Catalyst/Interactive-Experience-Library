@@ -32,6 +32,14 @@ public class WebCamFeed : MonoBehaviour
         }
     }
 
+    [ContextMenu("Current Using Camera")]
+    public void CurrentCam()
+    {
+        WebCamDevice[] devices = WebCamTexture.devices;
+
+        Debug.Log(devices[currentCameraIndex].name);
+    }
+
 
     private void Start()
     {
